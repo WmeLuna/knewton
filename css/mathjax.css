@@ -1,0 +1,10 @@
+section > div >div[class] script[id^="MathJax-Element"] {
+  display: block;
+  user-select: all;
+}
+.helpButton {
+  display: none;
+} 
+.answer-explanation__explanation___2X7B5 {
+  display: none;
+}

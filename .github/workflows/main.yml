@@ -23,7 +23,7 @@ jobs:
 
     - name: Build
       run: |
-        for file in "quizSleuth" "imSecureEnough"; do
+        for file in "quizSleuth" "imSecureEnough" "rawMathJax"; do
           cat "${file}.meta.js" "${file}.js" > "${file}.user.js"
           terser "${file}.js" --compress 'passes=3,pure_getters,drop_console' --mangle -o "${file}.min.js"
           cat "${file}.meta.js" "${file}.min.js" > "${file}.min.user.js"

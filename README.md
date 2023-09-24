@@ -1,2 +1,9 @@
-# knewton
-scripts for the annoying ass platform that is Knewton Alta
+# Knewton Tampermonkey Scripts
+## Scripts for Knewton Alpha
+
+### quizSleuth - [Install](https://github.com/WmeLuna/knewton/raw/main/quizSleuth.min.user.js)
+Gives more info for tests before the actual test.  
+
+
+### imSecureEnough - [Install](https://github.com/WmeLuna/knewton/raw/main/imSecureEnough.min.user.js)
+Lets you use any browser instead of using their ~~spyware~~ Secure Browser.  
